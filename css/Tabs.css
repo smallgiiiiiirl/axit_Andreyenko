@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}*/
+.workspace{
+    width:1170px;
+    
+
+}
+
+.tabs{
+    list-style: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #C6CBCD;
+    text-transform: uppercase;
+    color: #333333;
+}
+.tabs--1{
+    width: 201px; 
+    /* height: 30px;  */
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -1px;
+    margin-left: 252.5px;
+}
+.tabs--2{
+margin-left: 154.5px;
+}
+.tabs--3{
+    margin-left: 146px;
+}
+
+/*.all__content{
+    width: 1700px;
+    left:170px;
+    margin-left: 100px;
+    padding: 0px 15px;
+    border: 1px solid #C6CBCD;
+}*/
+.title{
+    width: 570px;
+    padding: 15px 0px 15px 15px ;
+    left: 270px;
+    margin-left: 100px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+}
+.content{
+    width: 570px;
+    left: 270px;
+    margin-left:100px;
+    padding: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+}
+.image{
+    width: 470px;
+    margin-left: auto;
+    
+   
+    
+}
+.button{
+    width: 270px;
+    /* height: 58px; */
+    background: #ec7979;
+    border: 0px;
+    margin-left: 100px;
+    margin-top: 27px;
+    padding-inline: 70px;
+    padding-block: 20px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24.51px;
+    
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+}
