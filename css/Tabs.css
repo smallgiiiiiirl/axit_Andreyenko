@@ -41,12 +41,13 @@ margin-left: 154.5px;
 .tabs--3{
     margin-left: 146px;
 }
-
+.wrap{
+    width:1700px;
+    border: 1px solid #C6CBCD;
+}
 .all__content{
     width: 700px;
-    position: relative;
-    left:170px;
-    /* margin-left: 100px; */
+    
     padding: 0px 15px;
     
     /* border: 1px solid #C6CBCD; */
@@ -80,9 +81,7 @@ margin-left: 154.5px;
 .image{
     width: 470px;
     margin-left: 870px;
-    position: relative;
-    /* top: 27px; */
-    right: 170px;
+   
 }
 .button{
     width: 270px;
