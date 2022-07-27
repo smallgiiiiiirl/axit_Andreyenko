@@ -37,11 +37,11 @@ margin-left: 154.5px;
 }
 .all__content{
     width: 700px;
-    padding: 0px 15px;
+    padding: 0;
 }
 .title{
     width: 570px;
-    padding: 15px 0px 15px 15px ;
+    padding: 15px 0px 15px 0px ;
     left: 270px;
     margin-left: 100px;
     margin-right: 10px;
