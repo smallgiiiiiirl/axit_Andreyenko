@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.title_awesome{
+    margin-top: 50px;
+    padding-bottom: 15px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;    
+}
+.paragraph_awesome{
+    margin: auto;
+    margin-top: 40px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+}
+.separator{
+    width: 170px;
+    margin: 0 auto;
+}
+.point *{
+     display: inline-block;
+    width: 370px;
+    margin: 0px;
+}
+.picture{
+    width: 92px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+.point_title{
+    padding-inline:15px ;
+    padding-bottom: 30px;
+    margin-top: 39px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+.point__paragraph{
+    margin-top: 8px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
