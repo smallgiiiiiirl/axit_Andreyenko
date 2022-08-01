@@ -4,6 +4,7 @@
 .title_pricing {
   margin-top: 50px;
   padding: 60px 0 60px 0;
+  min-width: 370px;
   font-family: "Raleway", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
