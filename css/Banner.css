@@ -1,0 +1,72 @@
+.banner {
+  background-image: url("../images/banner_background.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/banner_background.jpg") no-repeat;
+  background-size: cover;
+
+}
+.logo {
+  width: 165px;
+  margin-top: 231px;
+}
+.banner_content{
+    width:670px;
+}
+.banner_title {
+  width: 670px;
+  margin-top: 73px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.banner_paragraph {
+  width: 270px;
+  margin-top: 97px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.banner_button {
+  margin-top: 42px;
+  width: 270px;
+  background: none;
+  padding: 20px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  border: 2px solid #FFFFFF;
+  color: #ffffff;
+}
+.form{
+    width: 470px;
+    display: grid;
+    background-color: #FFFFFF;
+    padding: 30px;
+}
+input{
+    
+    border:none;
+    border-bottom: 1px solid #BDBDBD;
+    margin-top: 68px;
+}
+.form_button{
+    margin-top: 75px;
+    
+}
