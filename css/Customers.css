@@ -48,3 +48,13 @@
   align-items: center;
   color: #000000;
 }
+.customer--1::before{
+  content: "";
+  background-image: url('/images/Davis.png');
+  width: 70px;
+  height: 70px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
