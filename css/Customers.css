@@ -9,6 +9,18 @@
   text-transform: uppercase;
   margin-top: 50px;
   padding: 55px;
+  position: relative;
+}
+.separator::after{
+  content: "";
+  width: 170px;
+  height: 0;
+  display: block;
+  position: absolute;
+  background: orange;
+  top: 0;
+  left: 670px;
+
 }
 
 .customer_paragraph {
@@ -20,6 +32,47 @@
   text-align: center;
   margin-top: 40px;
   color: #86878b;
+}
+.comments {
+  width: 370px;
+  height: 180px;
+  background: #e2e2e2;
+  border-radius: 10px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  padding-top: 37px;
+  position: relative;
+
+}
+.triangle-down::after {
+  content: "";
+  left:70px;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #e2e2e2;
+  position: absolute;
+}
+.triangle-down--2::after {
+  content: "";
+  left:460px;
+  position: absolute;
+  border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #e2e2e2;
+}
+.triangle-down--3::after {
+  content: "";
+  left:845px;
+  position: absolute;
+  border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #e2e2e2;
 }
 .customers {
   display: flex;
@@ -36,9 +89,10 @@
   line-height: 33px;
   align-items: center;
   text-transform: capitalize;
-
+  margin-top: 46px;
   color: #000000;
 }
+
 .customer__position {
   font-family: "Raleway", "Arial", sans-serif;
   font-style: normal;
@@ -48,13 +102,25 @@
   align-items: center;
   color: #000000;
 }
-.customer--1::before{
+.customer--1::before {
   content: "";
-  background-image: url('/images/Davis.png');
+  background-image: url("../images/Davis.png");
+  border-radius: 50%;
   width: 70px;
   height: 70px;
   display: block;
   position: absolute;
-  top: 0;
-  left: 10px;
+  top: 215px;
+  left: 0px;
+}
+.customer--2::before {
+  content: "";
+  background-image: url("../images/Davis.png");
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: block;
+  position: absolute;
+  top: 215px;
+  left: 0px;
 }

@@ -1,0 +1,50 @@
+.design {
+  background-image: url("../images/design_background.jpg");
+  margin-top: 65px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/design_background.jpg") no-repeat;
+    background-size: cover;
+    /* width: 100%; */
+   
+}
+.design_title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 70px;
+  color: #ffffff;
+}
+.design_paragraph {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.design_button {
+  background: none;
+  margin-top: 73px;
+  width: 370px;
+  padding: 25px;
+  margin-left: 400px;
+  /* margin-bottom: 50px; */
+  border: 2px solid #ffffff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
