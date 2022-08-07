@@ -14,14 +14,26 @@
   </head>
   <body>
     <header class="header">
-      <img src="images/logo_header.png" alt="logo" class="logo_header">
+      <div class="header_wrap"> <img src="images/logo_header.png" alt="logo" class="logo_header" />
+       <nav >
+        <ul id="navbar">
+          <li><a href="#features">features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#pricing">pricing</a></li>
+          <li><a href="#reviews">reviews</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+       </nav>
+        </ul></nav></div>
+      
+     
     </header>
 
     <main>
       <section class="banner">
         <div class="conteiner">
           <div class="banner_content">
-            <img src="images/Logo.png" alt="Logo" class="logo">
+            <img src="images/Logo.png" alt="Logo" class="logo" />
             <h1 class="banner_title">
               MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
             </h1>
@@ -30,12 +42,14 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </p>
             <button class="banner_button" type="button">Download</button>
-          </div>
-          <div class="form">
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="Password">
-            <button type="submit" class="form_button">Get Started</button>
+            <div class="form_wrap">
+              <form class="form">
+                <input type="text" placeholder="Name" />
+                <input type="text" placeholder="Email" />
+                <input type="text" placeholder="Password" />
+                <button type="submit" class="form_button">Get Started</button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
@@ -121,9 +135,7 @@
         <div class="conteiner">
           <div class="wrap_pricing_options">
             <h2 class="title_pricing">Pricing options</h2>
-            <div class="separator">
-              <img src="images//separator.png" alt="separator" />
-            </div>
+
             <p class="paragraph_pricing_options">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
@@ -233,6 +245,17 @@
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+      <ul class="links">
+        <li class="element"><a href="facebook" class="link"><img src="images/facebook.png" alt="Facebook" width="23px" height="42px"></a></li>
+        <li class="element"><a href="twitter" class="link"><img src="images/twitter.png" alt="Twitter" width="43px" height="35px"></a></li>
+        <li class="element"><a href="linkedin" class="link"><img src="images/linkedin.png" alt="linkedin" width="40px" height="40px"></a></li>
+        <li class="element"><a href="pinterest" class="link"><img src="images/pinterest.png" alt="Pinterest" width="44px" height="44px"></a></li>
+        <li class="element"><a href="instagram" class="link"><img src="images/instagramm.png" alt="instagram" width="40px" height="40px"></a></li>
+        <li class="element"><a href="github" class="link"><img src="images/git hub.png" alt="Git Hub" width="44px" height="43px"></a></li>
+        <li class="element"><a href="rss" class="link"><img src="images/rss.png" alt="Rss" width="35px" height="35px"></a></li>
+      </ul>
+      <p class="footer_paragraph">© 2015 Axure Themes</p>
+    </footer>
   </body>
 </html>
