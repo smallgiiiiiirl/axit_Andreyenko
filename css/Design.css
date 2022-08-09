@@ -30,6 +30,9 @@
 
   color: #ffffff;
 }
+._design_button_wrap{
+  padding-bottom: 50px;
+}
 .design_button {
   background: none;
   margin-top: 73px;

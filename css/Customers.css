@@ -11,16 +11,16 @@
   padding: 55px;
   position: relative;
 }
-.separator::after{
+.customers_title::after {
   content: "";
   width: 170px;
   height: 0;
   display: block;
   position: absolute;
-  background: orange;
-  top: 0;
-  left: 670px;
-
+  border: 0.5px solid #ec7979;
+  background: #ec7979;
+  top: 145px;
+  left: 495px;
 }
 
 .customer_paragraph {
@@ -48,31 +48,31 @@
   padding: 10px;
   padding-top: 37px;
   position: relative;
-
+  gap: 30px;
 }
 .triangle-down::after {
   content: "";
-  left:70px;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-top: 20px solid #e2e2e2;
+  left: 70px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #e2e2e2;
   position: absolute;
 }
 .triangle-down--2::after {
   content: "";
-  left:460px;
+  left: 460px;
   position: absolute;
   border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-top: 20px solid #e2e2e2;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #e2e2e2;
 }
 .triangle-down--3::after {
   content: "";
-  left:845px;
+  left: 845px;
   position: absolute;
   border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-top: 20px solid #e2e2e2;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #e2e2e2;
 }
 .customers {
   display: flex;
@@ -91,6 +91,7 @@
   text-transform: capitalize;
   margin-top: 46px;
   color: #000000;
+  padding-left: 80px;
 }
 
 .customer__position {
@@ -101,6 +102,7 @@
   line-height: 21px;
   align-items: center;
   color: #000000;
+  padding-left: 80px;
 }
 .customer--1::before {
   content: "";
@@ -115,12 +117,23 @@
 }
 .customer--2::before {
   content: "";
-  background-image: url("../images/Davis.png");
+  background-image: url("../images/Jaydon.png");
   border-radius: 50%;
   width: 70px;
   height: 70px;
   display: block;
   position: absolute;
   top: 215px;
-  left: 0px;
+  left: 385px;
+}
+.customer--3::before {
+  content: "";
+  background-image: url("../images/Cooper.png");
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: block;
+  position: absolute;
+  top: 215px;
+  left: 770px;
 }

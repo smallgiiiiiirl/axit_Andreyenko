@@ -92,3 +92,9 @@
   text-transform: capitalize;
   color: white;
 }
+.button:hover{
+  background: #AB4949;
+}
+.button:active{
+  background:#EC7979;
+}

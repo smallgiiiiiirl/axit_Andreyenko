@@ -10,6 +10,9 @@
 }
 .banner_content {
   width: 670px;
+  display: flex;
+  padding-bottom: 185px;
+  align-items: flex-start;
 }
 .banner_title {
   width: 670px;
@@ -21,8 +24,17 @@
   line-height: 56px;
   align-items: center;
   text-transform: uppercase;
-
+  position: relative;
   color: #ffffff;
+}
+.banner_title::after {
+  content: "";
+  border: 0.5px solid #ffffff;
+  background-color: #ffffff;
+  position: absolute;
+  width: 170px;
+  top: 210px;
+  left: 0px;
 }
 .banner_paragraph {
   width: 270px;
@@ -61,22 +73,41 @@
   border: 2px solid #ab4949;
   color: #ab4949;
 }
-.form {
+.form{
   width: 470px;
-  /* height: 450px; */
   margin-top: 208px;
-  display: flex;
-  flex-direction: column;
   border-radius: 10px;
   background-color: #ffffff;
+}
+.form__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 30px;
 }
-input {
+.form__input {
+  width: 370px;
   border: none;
   border-bottom: 1px solid #bdbdbd;
-  margin-top: 68px;
+  padding: 20px;
+}
+.form__title {
+  padding: 30px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+.new_color {
+  color: #ec7979;
 }
 .form_button {
+  width: 470px;
   margin-top: 75px;
   background: #ec7979;
   border-radius: 0px 0px 10px 10px;
@@ -98,3 +129,4 @@ input {
 .form_button:active {
   box-shadow: inset 0px 0px 10px #ab4949;
 }
+
