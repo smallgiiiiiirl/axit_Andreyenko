@@ -131,6 +131,9 @@
 }
 
 @media (max-width: 1024px) {
+  .conteiner{
+    width:1024px;
+  }
   .logo {
     width: 183px;
     margin-top: 136px;
@@ -149,3 +152,4 @@
     width: 183px;
   }
 }
+

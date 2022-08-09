@@ -16,10 +16,10 @@
   color: #000000;
   position: relative;
 }
-.title_pricing::after{
+.title_pricing::after {
   content: "";
-  border: 0.5px solid #EC7979;
-  background-color: #EC7979;
+  border: 0.5px solid #ec7979;
+  background-color: #ec7979;
   position: absolute;
   width: 170px;
   top: 150px;
@@ -40,7 +40,7 @@
 .pricing_cards {
   margin-top: 79px;
   display: flex;
-  gap:30px;
+  gap: 30px;
 }
 .view {
   width: 370px;
@@ -89,9 +89,30 @@
   font-size: 18px;
   line-height: 21px;
 }
-.card_information__content{
-  background-color: #FFFFFF;
-  border: 2px solid #F5F5F5;
-  color: #86878B;
+.card_information__content {
+  background-color: #ffffff;
+  border: 2px solid #f5f5f5;
+  color: #86878b;
   padding: 15px;
+}
+@media (max-width: 1024px) {
+  .title_pricing {
+    width: 992px;
+    font-size: 24;
+  }
+  .title_pricing::after {
+    width: 143px;
+    left: 422px;
+  }
+  .paragraph_pricing_options {
+    width: 982px;
+    font-size: 14;
+  }
+  .pricing_cards {
+    gap: 20px;
+  }
+  .view {
+    width: 317px;
+  }
+  
 }

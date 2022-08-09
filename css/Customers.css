@@ -137,3 +137,39 @@
   top: 215px;
   left: 770px;
 }
+@media (max-width: 1024px) {
+  .customers_title {
+    width: 992px;
+    font-size: 24;
+  }
+  .customers_title::after {
+    width: 142px;
+    left: 410px;
+  }
+  .customer_paragraph {
+    width: 992px;
+    font-size: 14;
+  }
+  .comments {
+    width: 317px;
+    font-size: 14;
+  }
+  .triangle-down--2::after {
+    left: 410px;
+  }
+  .triangle-down--3::after {
+    left: 755px;
+  }
+  .customer__name {
+    font-size: 18;
+  }
+  .customer__position {
+    font-size: 14;
+  }
+  .customer--2::before {
+    left: 338px;
+  }
+  .customer--3::before {
+    left: 678px;
+  }
+}

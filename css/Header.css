@@ -14,14 +14,14 @@
   text-align: center;
   text-align: right;
 }
-#navbar li {
-  display: inline;
+#navbar li{
+  display:inline;  
 }
-#navbar li:active {
+#navbar a:active {
   background-color: #ab4949;
   color: #ffffff;
 }
-#navbar li:hover {
+#navbar a:hover {
   background-color: #ec7979;
   color: #ffffff;
 }

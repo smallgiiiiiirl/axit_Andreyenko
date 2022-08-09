@@ -1,3 +1,4 @@
+/* Переделать картинки! */
 .media {
   background-color: #f8efef;
 }
@@ -32,7 +33,19 @@
 }
 .media__links {
   display: flex;
-  /* align-items: center; */
   margin-top: 40px;
   padding-bottom: 40px;
+}
+@media (max-width:1024px){
+  .conteiner{
+    width: 1024px;
+  }
+  .media__title{
+    width: 402px;
+    font-size: 18;
+  }
+  .media__paragraph{
+    width: 402px;
+    font-size: 14;
+  }
 }
