@@ -1,0 +1,38 @@
+.media {
+  background-color: #f8efef;
+}
+.media_wrap {
+  display: flex;
+}
+.media__title {
+  width: 470px;
+  margin-top: 2px;
+  padding: 17px;
+  padding-left: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  align-items: center;
+  text-transform: capitalize;
+  color: #333333;
+}
+.media__paragraph {
+  width: 470px;
+  margin-top: 18px;
+  padding-bottom: 18px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  color: #86878b;
+}
+.media__links {
+  display: flex;
+  /* align-items: center; */
+  margin-top: 40px;
+  padding-bottom: 40px;
+}

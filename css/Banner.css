@@ -5,8 +5,8 @@
   background-size: cover;
 }
 .logo {
-  width: 165px;
-  margin-top: 231px;
+  width: 183px;
+  margin-top: 208px;
 }
 .banner_content {
   width: 670px;
@@ -16,7 +16,7 @@
 }
 .banner_title {
   width: 670px;
-  margin-top: 73px;
+  margin-top: 53px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
@@ -73,13 +73,13 @@
   border: 2px solid #ab4949;
   color: #ab4949;
 }
-.form{
+.form {
   width: 470px;
   margin-top: 208px;
   border-radius: 10px;
   background-color: #ffffff;
 }
-.form__content{
+.form__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,3 +130,22 @@
   box-shadow: inset 0px 0px 10px #ab4949;
 }
 
+@media (max-width: 1024px) {
+  .logo {
+    width: 183px;
+    margin-top: 136px;
+  }
+  .banner_title{
+    width: 454px;
+    font-size: 36px;
+  }
+  .banner_title::after{
+    width: 115px;
+  }
+  .banner_paragraph{
+    font-size: 14px;
+  }
+  .banner_button{
+    width: 183px;
+  }
+}
