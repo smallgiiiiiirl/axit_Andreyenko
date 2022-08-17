@@ -78,13 +78,13 @@
             </div>
             <div class="media__link">
               <ul class="media__links">
-                <li class="media__element"><a href="facebook" class="link"><img src="images/facebook.png" alt="Facebook" width="30px" height="55px"></a></li>
-                <li class="media__element"><a href="twitter" class="link"><img src="images/twitter.png" alt="Twitter" width="57px" height="47px"></a></li>
-                <li class="media__element"><a href="linkedin" class="link"><img src="images/linkedin.png" alt="linkedin" width="53px" height="53px"></a></li>
-                <li class="media__element"><a href="pinterest" class="link"><img src="images/pinterest.png" alt="Pinterest" width="58px" height="58px"></a></li>
-                <li class="media__element"><a href="instagram" class="link"><img src="images/instagramm.png" alt="instagram" width="53px" height="53px"></a></li>
-                <li class="media__element"><a href="github" class="link"><img src="images/git hub.png" alt="Git Hub" width="58px" height="57px"></a></li>
-                <li class="media__element"><a href="rss" class="link"><img src="images/rss.png" alt="Rss" width="45px" height="45px"></a></li>
+                <li class="media__element"><a href="facebook" class="media__img--wrap"><img src="images/facebook.svg" alt="facebook" class="media__img"></a></li>
+                <li class="media__element"><a href="twitter" class="media__img--wrap"><img src="images/twitter.svg" alt="Twitter" class="media__img"></a></li>
+                <li class="media__element"><a href="linkedin" class="media__img--wrap"><img src="images/linkedin.svg" alt="linkedin" class="media__img"></a></li>
+                <li class="media__element"><a href="pinterest" class="media__img--wrap"><img src="images/pinterest.svg" alt="Pinterest" class="media__img"></a></li>
+                <li class="media__element"><a href="instagram" class="media__img--wrap"><img src="images/instagram.svg" alt="instagram" class="media__img"></a></li>
+                <li class="media__element"><a href="github" class="media__img--wrap"><img src="images/github.svg" alt="Git Hub" class="media__img" ></a></li>
+                <li class="media__element"><a href="rss" class="media__img--wrap"><img src="images/rss.svg" alt="Rss" class="media__img" ></a></li>
               </ul>
             </div>
               
@@ -116,11 +116,11 @@
               <button class="button" type="button">Download</button>
             </div>
             <div class="image">
-              <!-- <picture>
-                <source srcset="picture/about_icon_1.png" media="(min-width: 960px)">
-                <img class="state" src="/picture/img@tablet.jpg" alt="freedom">
-              </picture> -->
-              <img src="images/statue of liberty.png" alt="statue of liberty" />
+              <picture>
+                <source srcset="images/Statue of liberty@tablet.png.jpg" media="(min-width: 1024px) and (max-width:1510px)">
+                <img class="statue" src="images/statue of liberty.png" alt="statue of liberty">
+              </picture>
+              <!-- <img src="images/statue of liberty.png" alt="statue of liberty" /> -->
             </div>
           </div>
         </section>
@@ -128,9 +128,6 @@
         <section class="awesome">
           <div class="wrap_1">
             <h2 class="title_awesome">WHY THIS IS AWESOME</h2>
-            <div class="separator">
-              <img src="images/separator.png" alt="separator" />
-            </div>
             <p class="paragraph_awesome">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
@@ -291,34 +288,28 @@
           <h2 class="contact_title">contact us</h2>
           <!-- separator -->
           <p class="contact_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <form class="contact_form" action="" method="post">
-            <fieldset>
-              <label>
-                <input name="Name" placeholder="Name" type="text" class="inputs">
-              </label>
-              <label>
-                <input name="Email" placeholder="Emaile" type="email">
-              </label>
-              <label>
-                <input name="Password" placeholder="Password" type="password">
-              </label>
-            </fieldset>
-            <textarea ></textarea>
-            <button type="submit" class="contact_button">send message</button>
+          <form action="" class="contact-us__form">
+            <div class="form__container">
+                <input type="text" name="username" placeholder="Name" class="cont__line">
+                <input type="email" name="useremail" placeholder="Email" class="cont__line">
+                <input type="password" name="userpass" placeholder="Password" class="cont__line">
+            </div>
+            <div class="mob__mod"><textarea class="container__text" name="Message" placeholder="Message" id="" cols="80" rows="10"></textarea></div>
           </form>
-                </section>
+          <button class="contact-us__button" type="submit">send message</button>
+        </section>
       </div>
     </main>
 
     <footer class="footer">
       <ul class="links">
-        <li class="element"><a href="facebook" class="link"><img src="images/facebook.png" alt="Facebook" width="23px" height="42px"></a></li>
-        <li class="element"><a href="twitter" class="link"><img src="images/twitter.png" alt="Twitter" width="43px" height="35px"></a></li>
-        <li class="element"><a href="linkedin" class="link"><img src="images/linkedin.png" alt="linkedin" width="40px" height="40px"></a></li>
-        <li class="element"><a href="pinterest" class="link"><img src="images/pinterest.png" alt="Pinterest" width="44px" height="44px"></a></li>
-        <li class="element"><a href="instagram" class="link"><img src="images/instagramm.png" alt="instagram" width="40px" height="40px"></a></li>
-        <li class="element"><a href="github" class="link"><img src="images/git hub.png" alt="Git Hub" width="44px" height="43px"></a></li>
-        <li class="element"><a href="rss" class="link"><img src="images/rss.png" alt="Rss" width="35px" height="35px"></a></li>
+        <li class="element"><a href="facebook" class="footer__img--wrap"><img src="images/facebook.svg" alt="Facebook" class="footer__img"></a></li>
+        <li class="element"><a href="twitter" class="footer__img--wrap"><img src="images/twitter.svg" alt="Twitter" class="footer__img"></a></li>
+        <li class="element"><a href="linkedin" class="footer__img--wrap"><img src="images/linkedin.svg" alt="linkedin" class="footer__img"></a></li>
+        <li class="element"><a href="pinterest" class="footer__img--wrap"><img src="images/pinterest.svg" alt="Pinterest" class="footer__img"></a></li>
+        <li class="element"><a href="instagram" class="footer__img--wrap"><img src="images/instagram.svg" alt="instagram" class="footer__img"></a></li>
+        <li class="element"><a href="github" class="footer__img--wrap"><img src="images/github.svg" alt="Git Hub" class="footer__img"></a></li>
+        <li class="element"><a href="rss" class="footer__img--wrap"><img src="images/rss.svg" alt="Rss" class="footer__img" ></a></li>
       </ul>
       <p class="footer_paragraph">© 2015 Axure Themes</p>
     </footer>

@@ -3,8 +3,7 @@
 }
 .title_pricing {
   margin-top: 50px;
-  padding: 60px 0 60px 0;
-  min-width: 370px;
+  padding: 60px;
   font-family: "Raleway", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -95,9 +94,8 @@
   color: #86878b;
   padding: 15px;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1510px) {
   .title_pricing {
-    width: 992px;
     font-size: 24;
   }
   .title_pricing::after {
@@ -105,7 +103,6 @@
     left: 422px;
   }
   .paragraph_pricing_options {
-    width: 982px;
     font-size: 14;
   }
   .pricing_cards {
@@ -114,5 +111,30 @@
   .view {
     width: 317px;
   }
-  
+}
+@media (max-width: 1023px) {
+  .title_pricing {
+    margin: 0;
+    padding: 30px;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .title_pricing::after {
+    width: 134px;
+    left: 80px;
+    top: 90px;
+  }
+  .paragraph_pricing_options {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .pricing_cards{
+    display: block;
+  }
+  .view {
+    width: 288px;
+    text-align: center;
+    margin-top: 27px;
+  }
 }

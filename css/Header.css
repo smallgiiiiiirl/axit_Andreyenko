@@ -9,13 +9,16 @@
 .header_wrap {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 #navbar ul {
   text-align: center;
   text-align: right;
+  display: flex;
+  justify-content: space-between;
 }
-#navbar li{
-  display:inline;  
+#navbar li {
+  display: inline;
 }
 #navbar a:active {
   background-color: #ab4949;
@@ -34,4 +37,16 @@
   line-height: 19px;
   text-transform: capitalize;
   color: #ffffff;
+}
+@media (max-width: 1023px) {
+ .header {
+    height: 56px;
+  }
+  .logo_header {
+    width: 130px;
+    margin-left: 20px;
+  }
+  #navbar {
+    display: none;
+  }
 }

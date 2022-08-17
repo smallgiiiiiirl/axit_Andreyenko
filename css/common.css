@@ -7,10 +7,15 @@
 .conteiner {
   width: 1170px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 ;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1510px) {
   .conteiner {
     width: 992px;
+  }
+}
+@media (max-width: 1023px) {
+  .conteiner {
+   width: 288px;
   }
 }

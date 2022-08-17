@@ -33,35 +33,107 @@
 
   color: #86878b;
 }
-.contact_button {
-  width: 370px;
-  border: none;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-  align-items: center;
-  text-align: center;
-  text-transform: capitalize;
-  background: #ec7979;
-  color: #ffffff;
+.contact-us__form {
+  display: flex;
+  gap: 30px;
+  margin-top: 80px;
 }
-.contact_form {
+.form__container {
+  display: flex;
+  flex-direction: column;
+  gap: 85px;
+}
+.cont__line {
+  width: 570px;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 15px;
+}
+.form__container input {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
-
   display: flex;
+  align-items: center;
+  outline: none;
+  color: #bdbdbd;
 }
- fieldset{
-    margin-top: 120px;
-    height: 200px;
-    width: 1170px;
-} 
-.inputs{
-    display: flex;
+.container__text {
+  height: 320px;
+  width: 100%;
+  padding: 30px 0 0 0;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  outline: none;
+  color: #bdbdbd;
+}
+.contact-us__button {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  background-color: #ec7979;
+  color: white;
+  padding: 19px 95px;
+  border: none;
+  font-size: 18px;
+  margin-top: 30px;
+  text-transform: capitalize;
+  margin: 50px auto;
+}
+@media (min-width: 1024px) and (max-width: 1510px) {
+  .contact_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .contact_title::after {
+    width: 144px;
+    left: 428px;
+  }
+  .contact_paragraph {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .contact-us__button {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 1023px) {
+  .contact_title {
+    font-size: 24px;
+    line-height: 28px;
+    padding: 45px;
+  }
+  .contact_title::after {
+    width: 134px;
+    left: 75px;
+    top: 115px;
+  }
+  .contact_paragraph {
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .cont__line {
+    width: 288px;
+    padding: 0 0 5px 0;
+  }
+  .contact-us__form {
     flex-direction: column;
+  }
+  .contact-us__button {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 15px 80px;
+  }
 }

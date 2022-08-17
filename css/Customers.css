@@ -137,9 +137,8 @@
   top: 215px;
   left: 770px;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1510px) {
   .customers_title {
-    width: 992px;
     font-size: 24;
   }
   .customers_title::after {
@@ -147,7 +146,6 @@
     left: 410px;
   }
   .customer_paragraph {
-    width: 992px;
     font-size: 14;
   }
   .comments {
@@ -171,5 +169,21 @@
   }
   .customer--3::before {
     left: 678px;
+  }
+}
+@media (max-width: 1023px) {
+  .customers_title {
+    font-size: 24px;
+    line-height: 28px;
+    padding: 0;
+  }
+  .customers_title::after {
+    width: 134px;
+    top: 75px;
+    left: 80px;
+  }
+  .customer_paragraph {
+    font-size: 14px;
+    line-height: 16px;
   }
 }
