@@ -74,9 +74,10 @@
   line-height: 21px;
   align-items: center;
 }
-/* .statue {
-  width: 470px;
-} */
+.statue{
+  max-width: 100%;
+  min-height: 100%;
+}
 .button {
   width: 270px;
   background: #ec7979;

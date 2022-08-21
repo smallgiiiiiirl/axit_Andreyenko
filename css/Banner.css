@@ -152,6 +152,9 @@
   .logo {
     display: none;
   }
+  .banner{
+    background-position: center;
+  }
   .banner_title {
     margin-top: 84px;
     width: 288px;
@@ -179,8 +182,8 @@
     width: 288px;
     margin-top: 56px;
   }
-  .form__content{
-    padding: 10px;
+  .form__content {
+    padding: 20px;
   }
   .form__input {
     width: 240px;
@@ -189,6 +192,7 @@
     width: 240px;
     font-size: 14px;
     padding: 10px;
+    margin: 0 auto;
   }
   .form_button {
     width: 288px;
